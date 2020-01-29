@@ -1,4 +1,6 @@
-
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
+import Contacts from './contacts';
 class Dashboard extends Component {
     state = {
         redirect: true,
