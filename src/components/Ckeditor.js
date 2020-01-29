@@ -18,7 +18,7 @@ class CKeditor extends Component {
                     } }
                     onChange={ ( event, editor ) => console.log( { event, editor } ) }
                     editor={ DecoupledEditor }
-                    data="Hello Ckeditor"
+                    data="Hello Ckeditor  ckeditor 5"
                    
                 />
             </div>
