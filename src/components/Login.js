@@ -52,7 +52,11 @@ class Login extends React.Component {
             redirect: true
         })
     }
-    
+    renderRedirect = () => {
+        if (this.state.redirect) {
+            return <Redirect to='/Ckeditor' />
+        }
+    }
     render() {
         return (
             <div>
