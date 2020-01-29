@@ -16,9 +16,7 @@ class CKeditor extends Component {
                             editor.ui.getEditableElement()
                         );
                     } }
-                    onChange={ ( event, editor ) => console.log( { event, editor } ) }
-                    editor={ DecoupledEditor }
-                    data="Hello Ckeditor 5"
+                    
                    
                 />
             </div>
